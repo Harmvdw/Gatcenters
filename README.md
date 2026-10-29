@@ -18,7 +18,15 @@ om later op te boren of te tappen).
 
 ## Installeren
 
-1. Kopieer de map `GatCenters` naar `%APPDATA%\Autodesk\Autodesk Fusion 360\API\AddIns\`.
+1. Kloon deze repo in de AddIns-map, in een map met de naam **`GatCenters`** (Fusion wil dat de mapnaam gelijk
+   is aan die van `GatCenters.py` en `GatCenters.manifest`):
+
+   ```
+   cd %APPDATA%\Autodesk\Autodesk Fusion 360\API\AddIns
+   git clone https://github.com/Harmvdw/Gatcenters.git GatCenters
+   ```
+
+   Of download de zip en hernoem de uitgepakte map naar `GatCenters`.
 2. Fusion: Utilities → Add-Ins → tab Add-Ins → **GatCenters** → Run. Vink *Run on Startup* aan.
 
 ## Voor ontwikkelaars
