@@ -1,0 +1,13 @@
+{
+    "autodeskProduct": "Fusion360",
+    "type": "addin",
+    "id": "76bb7146-be6f-41d7-b99a-8a09e24484c8",
+    "author": "Harm",
+    "description": {
+        "": "Selecteer een vlak: maakt een schets met in het centrum van elk gat een korte lijn (0,03 mm), zodat de lasersnijder elk gatcentrum markeert."
+    },
+    "version": "0.1.0",
+    "runOnStartup": true,
+    "supportedOS": "windows",
+    "editEnabled": true
+}
